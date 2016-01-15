@@ -1,0 +1,65 @@
+[
+    TResult(
+        columnValues=
+            [
+                TColumnValue(value='148', tags=None, qualifier='app_download', family='default', timestamp=1450945198562),
+                TColumnValue(value='62', tags=None, qualifier='app_upload', family='default', timestamp=1450945198562),
+                TColumnValue(value='1640', tags=None, qualifier='code', family='default', timestamp=1450945198562),
+                TColumnValue(value='4', tags=None, qualifier='dns_count', family='default', timestamp=1450945198562),
+                TColumnValue(value='www.baidu.com.\nCNAME\nwww.a.shifen.com.\n', tags=None, qualifier='dns_data_0', family='default', timestamp=1450945198562),
+                TColumnValue(value='www.baidu.com.\nCNAME\nwww.a.shifen.com.\nwww.a.shifen.com.\nA\n220.181.112.244\nwww.a.shifen.com.\nA\n220.181.111.188\n', tags=None, qualifier='dns_data_1', family='default', timestamp=1450945198562),
+                TColumnValue(value='www.baidu.com.\n', tags=None, qualifier='dns_data_2', family='default', timestamp=1450945198562),
+                TColumnValue(value='www.baidu.com.\n', tags=None, qualifier='dns_data_3', family='default', timestamp=1450945198562),
+                TColumnValue(value='1', tags=None, qualifier='dns_data_count_0', family='default', timestamp=1450945198562),
+                TColumnValue(value='3', tags=None, qualifier='dns_data_count_1', family='default', timestamp=1450945198562),
+                TColumnValue(value='1', tags=None, qualifier='dns_data_count_2', family='default', timestamp=1450945198562),
+                TColumnValue(value='1', tags=None, qualifier='dns_data_count_3', family='default', timestamp=1450945198562),
+                TColumnValue(value='32621', tags=None, qualifier='dns_id_0', family='default', timestamp=1450945198562),
+                TColumnValue(value='55108', tags=None, qualifier='dns_id_1', family='default', timestamp=1450945198562),
+                TColumnValue(value='32621', tags=None, qualifier='dns_id_2', family='default', timestamp=1450945198562),
+                TColumnValue(value='55108', tags=None, qualifier='dns_id_3', family='default', timestamp=1450945198562),
+                TColumnValue(value='1450944948444471', tags=None, qualifier='dns_ts_0', family='default', timestamp=1450945198562),
+                TColumnValue(value='1450944948379938', tags=None, qualifier='dns_ts_1', family='default', timestamp=1450945198562),
+                TColumnValue(value='1450944948324915', tags=None, qualifier='dns_ts_2', family='default', timestamp=1450945198562),
+                TColumnValue(value='1450944948324809', tags=None, qualifier='dns_ts_3', family='default', timestamp=1450945198562), T
+                ColumnValue(value='1', tags=None, qualifier='dns_type_0', family='default', timestamp=1450945198562),
+                TColumnValue(value='1', tags=None, qualifier='dns_type_1', family='default', timestamp=1450945198562),
+                TColumnValue(value='0', tags=None, qualifier='dns_type_2', family='default', timestamp=1450945198562),
+                TColumnValue(value='0', tags=None, qualifier='dns_type_3', family='default', timestamp=1450945198562),
+                TColumnValue(value='2', tags=None, qualifier='download_times', family='default', timestamp=1450945198562),
+                TColumnValue(value='1450944948324809', tags=None, qualifier='first_pack_ts', family='default', timestamp=1450945198562),
+                TColumnValue(value='204', tags=None, qualifier='ip_download', family='default', timestamp=1450945198562),
+                TColumnValue(value='0', tags=None, qualifier='ip_frag_download', family='default', timestamp=1450945198562),
+                TColumnValue(value='0', tags=None, qualifier='ip_frag_download_times', family='default', timestamp=1450945198562),
+                TColumnValue(value='0', tags=None, qualifier='ip_frag_upload', family='default', timestamp=1450945198562),
+                TColumnValue(value='0', tags=None, qualifier='ip_frag_upload_times', family='default', timestamp=1450945198562),
+                TColumnValue(value='118', tags=None, qualifier='ip_upload', family='default', timestamp=1450945198562),
+                TColumnValue(value='0', tags=None, qualifier='is_last_session', family='default', timestamp=1450945198562),
+                TColumnValue(value='0', tags=None, qualifier='is_long_session', family='default', timestamp=1450945198562),
+                TColumnValue(value='1450944948444471', tags=None, qualifier='last_pack_ts', family='default', timestamp=1450945198562),
+                TColumnValue(value='232', tags=None, qualifier='link_download', family='default', timestamp=1450945198562),
+                TColumnValue(value='146', tags=None, qualifier='link_upload', family='default', timestamp=1450945198562),
+                TColumnValue(value='00:0C:29:E6:06:51', tags=None, qualifier='mac_dest', family='default', timestamp=1450945198562),
+                TColumnValue(value='00:50:56:FF:41:8F', tags=None, qualifier='mac_src', family='default', timestamp=1450945198562),
+                TColumnValue(value='dns', tags=None, qualifier='session_type', family='default', timestamp=1450945198562),
+                TColumnValue(value='164', tags=None, qualifier='trans_download', family='default', timestamp=1450945198562),
+                TColumnValue(value='78', tags=None, qualifier='trans_upload', family='default', timestamp=1450945198562),
+                TColumnValue(value='2', tags=None, qualifier='upload_times', family='default', timestamp=1450945198562)
+            ],
+            row='1450944948324809:172.16.85.177:50605:172.16.85.2:53:17')
+]
+
+
+
+{'code': '1640',
+'ip_download': '261',
+'link_download': '289',
+'trans_download': '221',
+'dns_ts_2': '1450946543517486',
+'dns_ts_3': '1450946543517369',
+'dns_ts_0': '1450946543550250',
+'dns_ts_1': '1450946543546809',
+'download_times': '2',
+'upload_first_pack_ts': '1450946543517369',
+'upload_last_pack_ts': '1450946543517486',
+'trans_upload': '78', 'dns_type_3': '0', 'dns_type_2': '0', 'dns_type_1': '1', 'dns_type_0': '1', 'app_download': '205', 'ip_upload': '118', 'first_pack_ts': '1450946543517369', 'mac_dest': '00:0C:29:E6:06:51', 'ip_frag_upload': '0', 'ip_frag_download': '0', 'session_type': 'dns', 'upload_times': '2', 'is_last_session': '0', 'ip_frag_upload_times': '0', 'ip_frag_download_times': '0', 'last_pack_ts': '1450946543550250', 'download_first_pack_ts': '1450946543546809', 'app_upload': '62', 'link_upload': '146', 'is_long_session': '0', 'mac_src': '00:50:56:FF:41:8F', 'dns_data_3': 'www.baidu.com.\n', 'dns_count': '4', 'dns_data_2': 'www.baidu.com.\n', 'dns_data_count_1': '1', 'dns_data_count_0': '3', 'dns_data_count_3': '1', 'dns_data_count_2': '1', 'dns_data_1': 'www.baidu.com.\nCNAME\nwww.a.shifen.com.\n', 'download_last_pack_ts': '1450946543550250', 'dns_data_0': 'www.baidu.com.\nCNAME\nwww.a.shifen.com.\nwww.a.shifen.com.\nA\n220.181.111.188\nwww.a.shifen.com.\nA\n220.181.112.244\n', 'dns_id_2': '9493', 'dns_id_3': '44823', 'dns_id_0': '44823', 'dns_id_1': '9493'}
