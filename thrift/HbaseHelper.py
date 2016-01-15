@@ -10,6 +10,7 @@ class HbaseHelper:
     '''
     a simple hbase client by yangzhijia 2016.01.15
     '''
+
     def __init__(self, ip, port):
         '''
         init the helper with thrift server ip address and port
@@ -65,9 +66,8 @@ class HbaseHelper:
 
         self.client.mutateRow(tablename, rowkey, mutations, None)
 
-    def get(self,tablename,rowkey):
+    def get(self, tablename, rowkey):
         pass
-
 
     def result2dic(self, result):
         '''
