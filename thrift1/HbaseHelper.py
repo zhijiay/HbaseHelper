@@ -1,3 +1,6 @@
+'''
+a simple hbase client by yangzhijia 2016.01.15
+'''
 from thrift.transport import TSocket
 from thrift.transport import TTransport
 from thrift.protocol import TBinaryProtocol
@@ -66,8 +69,24 @@ class HbaseHelper:
 
         self.client.mutateRow(tablename, rowkey, mutations, None)
 
+    def delete(self, tablename, rowkey):
+        '''
+        delete one row
+        :param tablename:
+        :param rowkey:
+        :return:
+        '''
+        self.client.deleteAllRow(tablename, rowkey, None)
+
     def get(self, tablename, rowkey):
-        pass
+        '''
+        get one row content
+        :param tablename: the table name
+        :param rowkey: the  row key
+        :return: row key and data dict
+        '''
+        result = self.client.getRow(tablename, rowkey, None)
+        return self.result2dic(result)
 
     def result2dic(self, result):
         '''
@@ -134,7 +153,8 @@ class HbaseHelper:
 
 def test():
     hbase = HbaseHelper('192.168.1.56', 9090)
-    hbase.put('mytest', 'row-key', {'hi': 'hello world'})
+
+    hbase.put('mytest', 'row-key', {'hi': 'hello world'})  # auto create table mytest
     hbase.put('mytest', 'row-key2', {'hi': 'hello world', 'yang': 'zhijia'})
 
     def show(rowkey, data):
@@ -143,6 +163,7 @@ def test():
             print '    ', key, ':', data[key]
 
     hbase.scanner('mytest', show)
+    hbase.deleteTable('mytest')
 
 
 if __name__ == '__main__':
