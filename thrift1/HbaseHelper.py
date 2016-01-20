@@ -65,7 +65,7 @@ class HbaseHelper:
 
         mutations = []
         for column in data:
-            mutations.append(Mutation(column='default:' + column, value=data[column]))
+            mutations.append(Mutation(column=column, value=data[column]))
 
         self.client.mutateRow(tablename, rowkey, mutations, None)
 
