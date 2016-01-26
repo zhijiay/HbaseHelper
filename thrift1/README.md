@@ -30,4 +30,4 @@ TRowResult(
     )
 ```
 
-so, i just translate it more to a simple form
+so, i need translate it to a simple form
